@@ -1,5 +1,5 @@
 import React from "react";
-import { trophy, leaf, bug } from '../assets'
+import { factory, leaf, bug } from '../assets'
 import { Card2, Title } from "../components";
 
 const Experience = () => {
@@ -16,10 +16,11 @@ const Experience = () => {
       />
       <div className="flex justify-between mt-[-20px] flex-col sm:flex-row">
         <Card2
-          img={trophy}
-          title="Top Rated"
-          description1=". 22 yeears of experience in Professional Bin Cleaning"
-          description2=". Rated #1 Bin Cleaning Service in Canada"
+          img={factory}
+          title="Services For"
+          description1=". Residential"
+          description2=". Commercial"
+          description3=". Industrial"
           alt='trophy'
         />
         <Card2

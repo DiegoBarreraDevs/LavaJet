@@ -8,11 +8,11 @@ const Hero = () => {
           <h1 className="text-[30px] sm:text-[50px] xs:text-[42px] font-bold">
             We Love Cleaning for our Customers
           </h1>
-          <p className="py-5 md:text-[19px] text-[10px]">
+          {/* <p className="py-5 md:text-[19px] text-[10px]">
             We are LavaJet, a company that has more than 20 years of experience
             in the cleaning business
-          </p>
-          <button className="bg-blue px-10 py-3 text-[15px] xs:text-[18px] rounded-sm">
+          </p> */}
+          <button className="mt-5 bg-blue px-10 py-3 text-[15px] xs:text-[18px] rounded-sm">
             <a href="#contact">Contact</a>
           </button>
         </div>
