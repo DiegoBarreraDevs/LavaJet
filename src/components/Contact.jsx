@@ -2,6 +2,15 @@ import { useState, useRef } from "react";
 import Title from "./Title";
 import emailjs from "@emailjs/browser";
 
+const Contact2 = () => {
+  return(
+    <div className="">
+        <h1></h1>
+        <h3></h3>
+    </div>
+  )
+}
+
 const Contact = () => {
   const fromRef = useRef();
   const [form, setForm] = useState({

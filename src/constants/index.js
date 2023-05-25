@@ -27,3 +27,5 @@ export const navLinks = [
       title: "FAQs",
     },
   ];
+
+  

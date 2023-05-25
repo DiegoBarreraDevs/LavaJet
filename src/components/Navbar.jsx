@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+import Translate from './Translate'
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -82,11 +84,7 @@ const Navbar = () => {
           </div>
 
           {/* Contact button */}
-          <div className="bg-blue text-white rounded-sm">
-            <div className="px-8 py-3 cursor-pointer text-[16px]">
-              <a href="#contact">Contact</a>
-            </div>
-          </div>
+          <Translate/>
         </div>
       </nav>
     </div>
@@ -94,3 +92,9 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+{/* <div className="bg-blue text-white rounded-sm">
+<div className="px-8 py-3 cursor-pointer text-[16px]">
+  <a href="#contact">Contact</a>
+</div>
+</div> */}

@@ -10,6 +10,7 @@ import Card2 from './Card2';
 import Faqs from './Faqs'
 import FaqsSection from './FaqsSection'
 import Credits from './Credits'
+import Translate from './Translate'
 
 export {
   Hero,
@@ -23,5 +24,6 @@ export {
   Card2,
   Faqs,
   FaqsSection,
-  Credits
+  Credits,
+  Translate
 }
